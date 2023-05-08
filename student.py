@@ -46,7 +46,7 @@ def Level_two(Option,One,Two,Three):
             print("Uh Bats thats not a number.")
             Nightwing = 0
         if(Nightwing_is_int):
-            if 1 > Nightwing or Nightwing > 25:
+            if 1 > Nightwing or Nightwing > 3:
                 print("its just one of the three, batman.")
                 one = "1"
             elif 1 = Nightwing:
@@ -122,7 +122,8 @@ def Level_two_BookShelf_exit(Three):
 
 
 def Level_Three(One):
-
+	Print(f"You walk through the painting and enter a long conference room, with a door at the very end of the room. You see 6 small holes in the wall.\nYou see 4 small long table put together to make 1 large long table, with 4 chairs on each side of the table and 2 chairs on each end.")
+	print(f"RIDDLER: Well howdy there partner, oh wait wrong room.\nI mean Batman we need to discuss your performance, You've been seriously lacking and unfortunately your on thin ice, and one more screw up you're FIRED!")
 
 def Level_Three(Three):
 
@@ -135,7 +136,7 @@ def Level_Boss_Fight(Two):
 #USE RANDOM SEQUENCE OF JUST LEFT OR RIGHT GO FOR 2 OUT THREE TO PASS
 
 def Level_Boss_Fight(Three):
-#BOSS FIGHT WITH SCARWCROW
+#BOSS FIGHT WITH SCARWCROW add random sequance for scarecrow where player has to choose either to punch or block and gamble wether or not scarwcrow reels back or slashes
 
 def Level_Four(One):
 
