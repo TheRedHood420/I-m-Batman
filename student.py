@@ -23,9 +23,9 @@ def Level_One(Question)
     print(f"RIDDLER: Hello there dark knight, it's been a long while has it not. I presume You're here for my atomic bomb, I'm sorry but unfortunatley I cannot allow you to take it without a fight. So if you answer the riddle correctly you may enter. I'm guessing your silence means yes so let us begin")
     print(f"For six months the second boy wonder was dead until he came back.\n\nThis hero is known for his phrase. You must put your trust in me, Sirius star is the brighest star, Sally had a bad day, Dylan said he would come in 10 minutes, space is the darkest area, you should end your day with glory.\n\nWho am I?\n\n")
     Jason_Todd = input(Question)
-    While Jason_Todd =! "Green Lantern" and Jason_Todd =! "()"
-    Jason_Todd = Jason_Todd.title()
-    if Jason_Todd == Green Lantern:
+    while Jason_Todd =! "Green Lantern" and Jason_Todd =! "()"
+    Jason_Todd = Jason_Todd.title():
+    if Jason_Todd == "Green Lantern":
         print(f"well done cape crusader.")
         return True
     else: 
@@ -37,8 +37,8 @@ def Level_two(Option,One,Two,Three):
     Nightwing = 0
     Nightwing =  input(Option)
    
-    while 1 > Nightwing or Nightwing > 3
-    Nightwing_is_int = False
+    while 1 > Nightwing or Nightwing > 3:
+        Nightwing_is_int = False
         try: 
             Nightwing = int(Nightwing)
             Nightwing_is_int = True
@@ -49,38 +49,40 @@ def Level_two(Option,One,Two,Three):
             if 1 > Nightwing or Nightwing > 3:
                 print("its just one of the three, batman.")
                 one = "1"
-            elif 1 = Nightwing:
+            elif 1 == Nightwing:
                 print("One may call it an insult, some may call it flattery, all the same it's a fun movie genre.")
                 Two_Face = ""
                 Two_Face = input("What am I?\n")
                 Two_Face = Two_Face.lower()
-                if Two_Face == parody:
+                if Two_Face == "parody":
                     Two_Face = True
                     return One
                 else:
                     return False
-            elif 2 = Nightwing:
+            elif 2 == Nightwing:
                 print("Some WHAT has its thorns, Some WHAT are blue.")
                 Harvey_Dent = ""
                 Harvey_Dent = input("What am I?\n")
                 Harvey_Dent = Harvey_Dent.lower()
-                if Harvey_Dent == flower or flowers:
+                if Harvey_Dent == "flower" or Harvey == "flowers":
                     Harvey_Dent = True
                     return Two
                 else: 
                     return False
-            elif 3 = Nightwing:
+            elif 3 == Nightwing:
                 print("He had one of those rare smiles with quality of eternal reassurance in it, that you come across four or five times in life.")
-                Peiguin = ""
-                Peiguin = input("Who am I?\n")
-                Peiguin = Peiguin.lower()
-                if Peiguin == gatsby 
-                    Peiguin = true 
+                Penguin = ""
+                Penguin = input("Who am I?\n")
+                Penguin = Peiguin.lower()
+                if Penguin == "gatsby": 
+                    Penguin = true 
                     return Three
                 else:
                     return False
-            Else
+            else:
                 return False
+
+
 def Level_two_Painting(One):
     print(f"RIDDLER: Well done cape crusader you figured out just 1 of many riddles, but now what must you do next, hurry the clock is ticking")
     while ClayFace != "the painting" and ClayFace != "painting" and ClayFace != "paint" and ClayFace != "":
@@ -123,7 +125,7 @@ def Level_two_BookShelf_exit(Three):
 
 def Level_Three(One):
 	Print(f"You walk through the painting and enter a long conference room, with a door at the very end of the room. You see 6 small holes in the wall.\nYou see 4 small long table put together to make 1 large long table, with 4 chairs on each side of the table and 2 chairs on each end.")
-	print(f"RIDDLER: Well howdy there partner, oh wait wrong room.\nI mean Batman we need to discuss your performance, You've been seriously lacking and unfortunately your on thin ice, and one more screw up you're FIRED!")
+	print(f"RIDDLER: Well howdy there partner, oh wait wrong room.\nI mean Batman we need to discuss your performance, You've been seriously lacking and unfortunately your on thin ice, and one more screw up you're FIRED! well I guess three more screw ups if you know I mean")
 
 def Level_Three(Three):
 
