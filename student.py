@@ -6,6 +6,7 @@ Def main():
 \t|Menu|
 S - Start
 X - Pause 
+T - Save
 Q - Quit
 I - Investigate
 P - Punch
@@ -125,9 +126,27 @@ def Level_two_BookShelf_exit(Three):
 
 def Level_Three(One):
 	Print(f"You walk through the painting and enter a long conference room, with a door at the very end of the room. You see 6 small holes in the wall.\nYou see 4 small long table put together to make 1 large long table, with 4 chairs on each side of the table and 2 chairs on each end.")
-	print(f"RIDDLER: Well howdy there partner, oh wait wrong room.\nI mean Batman we need to discuss your performance, You've been seriously lacking and unfortunately your on thin ice, and one more screw up you're FIRED! well I guess three more screw ups if you know I mean")
+	print(f"RIDDLER: Well howdy there partner, oh wait wrong room.\nI mean Batman we need to discuss your performance, You've been seriously lacking and unfortunately your on thin ice, and one more screw up you're FIRED! well I guess three more screw ups if you know I mean.")
+    print(f"RIDDLER: Alright enough with the trivialitys, I know all you care about are the riddles so lets make this easy:\n people often come to visit, but most often or not they eventully stay, all are welcome to stay from withered old men to small little children, unfortunatly if one come to visit you they will say a teary goodbye.")
+    Joker = ""
+    tries = 1 
+    Joker = input("what am I?\n")
+    Joker = Joker.lower()
+    while Joker != cemetery and tries < 3:
+        if Joker = cemetery:
+            print(f"impressive")
+        else:
+            print("Fire starts to shoot out the holes.")
+        tries += 1
+
+    if tries < 3:
+        return One
+    else:
+        return False
+        
 
 def Level_Three(Three):
+    print(f"You walk through the large passage way and find yourself in a room that looks like a small western tavern, with a small")
 
 def Level_Boss_Fight(One):
 #BOSS FIGHT WITH MR.FREEZE
