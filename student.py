@@ -134,7 +134,7 @@ def Level_Three(One):
     Joker = Joker.lower()
     while Joker != cemetery and tries < 3:
         if Joker = cemetery:
-            print(f"impressive")
+            print(f"RIDDLER: Impressive")
         else:
             print("Fire starts to shoot out the holes.")
         tries += 1
@@ -146,11 +146,45 @@ def Level_Three(One):
         
 
 def Level_Three(Three):
-    print(f"You walk through the large passage way and find yourself in a room that looks like a small western tavern, with a small")
+    print(f"You walk through the large passage way and find yourself in a room that looks like a small western tavern, with a small bar with drinks on top. About six tables with three chairs at each table.")
+	Print(f"\nRIDDLER: Well howdy there partner, yall aren't from around these parts are you, no I didn't think so. Well let me introduce you to are local sheriff")
+	print(f"\nOut walk Deadshot, a hired gun.")
+	print(f"\nRIDDLER: INTRODUCING SHERIF FLOYD LAWTON he's gonna watch you and if you get it wrong, well lets just say we handle things quite differently here, getting the wrong answer is punishiable by death.")
+	print(f"\nRIDDLER: Okay time for the riddle The good is wrong, the bad is right, the truth will trap you, these are all true if you look at it through a mirror.\nwhat am I?")
+	print(f"\nDEADSHOT: If you ask me he's missing a few screw loose.")
+	Orphan = ""
+	tries = 1
+	Deadshot = 3
+	Orphan = input("RIDDLER: I HEARD THAT!")
+	Orphan = Orphan.lower()
+	while Orphan != reverse and tries < 3:
+		if Orphan == reverse:
+			print(f"RIDDLER: Well done")
+			print(f"\nDEADSHOT: Cool do I still get paid for this.")
+			print(f"\nRIDDLER: Yes, just let him through.")
+			print(f"\nDEADSHOT: Cool hey bats can you give me a ride after this.")
+			print(f"\nBATMAN: Sure you want a ride to the hospital.")
+			print(f"\nDEADSHOT: Never mind.")
+		else:
+			print("Deadshot: {Deadshot -= 1}")
+			tries += 1
+		if tries < 3:
+			return Three
+		else:
+			return False
 
 def Level_Boss_Fight(One):
 #BOSS FIGHT WITH MR.FREEZE
 #USE POSSIBLE RANDOM SEQUENCE CONSICTING OF THROWING A BATARANG OR DODGING GO UNTIL THREE IN A ROW 
+import random
+Harley_Quinn = ""
+tries = 1
+Spoiler = random.radiant(Shoots, reloading)
+while Batgirl != Dodge and Batgirl != Batarang
+BATARANG = B
+Dodge = D
+if Spoiler == Shoots
+	
 
 def Level_Boss_Fight(Two):
 #BOSS FIGHT WITH KILLER CROC
